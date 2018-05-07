@@ -3,10 +3,10 @@
 function getDBConnection() {
     
     //C9 db info
-    $host = "us-cdbr-iron-east-05.cleardb.net";
-    $dbName = "heroku_96be87d910b5efe";
-    $username = "bf8752d16fa867";
-    $password = "dc52894c";
+    $host = "us-cdbr-iron-east-04.cleardb.net";
+    $dbName = "heroku_7f133508f11373a";
+    $username = "b7136b93add2b2";
+    $password = "f9815376";
     
     //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
